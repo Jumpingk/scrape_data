@@ -1,5 +1,8 @@
 var CrytoJS = require('crypto-js')
 
+function aes_decode(content) {
+  return CrytoJS.AES.decrypt(content)
+}
 
 function md5_func(content) {
   return CrytoJS.MD5(content).toString()
@@ -24,4 +27,3 @@ function f() {
   })
 }
 // console.log(f())
-
