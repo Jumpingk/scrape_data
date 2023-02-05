@@ -29,3 +29,9 @@ Crawler, from the web side and the application side to get some data
 
 - POST请求，提交data参数加密破解
 - 返回数据加密破解
+
+#### 唯品会商品信息自动化爬取存储项目
+
+- selenium自动化数据爬取
+- MySQL和MongoDB数据库存储
+
